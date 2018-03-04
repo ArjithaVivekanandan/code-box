@@ -9,7 +9,7 @@ using namespace std;
  if(array[abs(array[i])]>0)
   array[abs(array[i])] = -array[abs(array[i])];
     else
-      printf(" %d ", abs(array[i]));
+      printf("unique elements are %d ", abs(array[i]));
   }         
 }     
  
