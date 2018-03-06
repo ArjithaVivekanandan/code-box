@@ -38,7 +38,7 @@ for(j=i+1;j<(n-a);j++)
 {
 if(m[i]<m[j])
 {
-temp=v[i];
+temp=m[i];
 m[i]=m[j];
 m[j]=temp;
 }
