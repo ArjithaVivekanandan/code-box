@@ -3,15 +3,19 @@ using namespace std;
  void print_repeat(int array[],int size[])
  {
  int i;
+  int *count = (int *)calloc(sizeof(int), (size - 2));
  cout<<"Repeating elements are:";
- for(i=0;i<size;i++)
- {
- if(array[abs(array[i])]>0)
-  array[abs(array[i])] = -array[abs(array[i])];
+for(i = 0; i < size; i++)
+  {  
+    if(count[arr[i]] == 1)
+    cout<<arr[i];
     else
-      printf("unique elements are %d ", abs(array[i]));
+     count[arr[i]]++;
+  }    
+    
+     
   }         
-}     
+ 
  
 int main()
 {
