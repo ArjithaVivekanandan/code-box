@@ -17,7 +17,7 @@ int main()
 {
   int array[1000];
   int array_size = sizeof(array)/sizeof(array[0]);
-  printRepeating(array, array_size);
+  print_repeat(array, array_size);
   getchar();
   return 0;
 }
