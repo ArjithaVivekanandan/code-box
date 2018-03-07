@@ -3,8 +3,8 @@
 #include<ctype.h>
 bool isNumber(String s)
 {
-for(int i=0;i<s.length();i++)
-if(isdigit(s[i])==0))
+for(int j=0;j<s.length();i++)
+if(isdigit(s[j])==0))
 return true;
 }
 void main()
@@ -14,11 +14,11 @@ cout<<"Enter string:";
 cin>>str;
 if(isNumber(str)==0)
 {
-cout<<"Numeric";
+cout<<"Numeric number";
 }
 else
 {
-cout<<"Not numeric";
+cout<<"Not numeric number";
 }
 getch();
 }
