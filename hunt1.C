@@ -6,6 +6,7 @@ int n,j,m[100],temp=0,a=0,i,b=0;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
+  printf("Enter the elements:");
 scanf("%d",&m[i]);
 }
 for(i=0;i<n-1;i++)
