@@ -44,8 +44,9 @@ m[i]=m[j];
 m[j]=temp;
 }
 }}
+  printf("Largest number:");
   for(i=0;i<(n-a);i++)
 {
-printf("%d\t",m[i]);
+printf("%d\t\n",m[i]);
   }
 }
