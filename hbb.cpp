@@ -1,11 +1,12 @@
-#include<iostream>
+#include<stdio.h>
 #include<string.h>
+#include<conio.h>
 using namespace std;
 void main()
 {
 int begin,end,i,j=0,len,temp,count=0;
 String s;
-cout<<"Enter string:";
+printf<<"Enter string:";
 gets(s);
 len=s.length();
 for(i=0;i<len;i++)
@@ -19,6 +20,6 @@ s[end]=temp;
 j=i+1;
 }
 }
-cout<<s<<"";
+printf<<s<<"";
 return 0;
 }
