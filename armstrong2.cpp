@@ -1,21 +1,23 @@
-#include<stdio.h>
+#include <iostream>
 using namespace std;
-int main();
+
+int main()
 {
-int n,n1,l1,l2,i,rem,sum=0;
-cin>>l1;cout<<" ";
-cin>>l2;
-for(i=l1+1;i<l2;i++)
-{
-n1=i;
-while(i!=0)
-{
- rem=i%10;
- sum=sum+(rem*rem*rem);
- i=i/10;
- }
- if(sum==n1)
- cout<<n1;
- }
+  int a, b, i, num, rem, sum;
+ cin >> a;
+ cin >> b;
+for(i = a; i <= b; i++)
+  {     sum = 0;
+        num = i;
+for(; num > 0; num /= 10)
+        {
+         digit = num % 10;
+         sum = sum + rem * rem * rem;
+        }
+   if(sum == i)
+        {
+            cout << i << endl;
+        }
+  }
  return 0;
- }
+}
