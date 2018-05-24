@@ -2,13 +2,12 @@
 using namespace std;
 int main()
 {
- int n,i,j,dummy;
-    int a[n];
-    cin>>n;
+ int n,i,j;
+ int a[n];
+ cin>>a[n];
+ 
     for(i=0;i<n;i++)
-    {
-        cin>>a[n];
-    }
+     cin>>a[i];
     
     for(i=0;i<n;i++)
     {
