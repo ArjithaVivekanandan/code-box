@@ -12,7 +12,7 @@ int main()
    cin>>K;
    for(i=0;i<K;i++)
    {
-   cout<<S<<" ";
+   cout<<S<<endl;
    }
     return 0;
 }
