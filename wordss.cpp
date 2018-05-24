@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string s;
-    int i,count=0;
+    int i,count=1;
     getline(cin, s);
     for(i=0;i<s.length();i++)
     {
