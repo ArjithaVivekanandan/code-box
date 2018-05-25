@@ -12,9 +12,9 @@ void swap(int *a,int *b)
 }
 int main()
 {
-    int a,b;
-    cin>>a>>b;
-    swap(&a,&b);
-    cout<<a<<" "<<b;
+  int e,f;
+    cin>>e>>f;
+    swap(&e,&f);
+    cout<<e<<f;
    return 0;
 }
